@@ -29,6 +29,7 @@
 
 body{
     color: var(--text-color);
+    background: #EEF8ED;
 }
 
 #header{
@@ -92,8 +93,11 @@ body{
   }
 
 #header-button{
-    width: 500px;
+    width: 500px
+}
 
+.cta{
+  margin-left: 250px;
 }
 
 .btn{
@@ -135,8 +139,8 @@ h1{
     margin-top: 32px;
 }
 
-p{
-    margin-top: 48px;
+.head-p{
+    margin-top: 32px;
     padding-top: 32px;
     font-family: poppins, sans-serif;
     font-size: 20px;
@@ -170,6 +174,20 @@ p{
     margin-left: 90px;
     margin-bottom: 32px;
     color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    border: solid 1px var(--text-color1);
+    display: flex;
+}
+
+#form1 select{
+    width: 650px;
+    outline: none;
+    background: transparent;
+    padding: 24px;
+    margin-left: 90px;
+    margin-bottom: 32px;
+    color: var(--text-color-p);
     font-size: 18px;
     border-radius: 8px;
     border: solid 1px var(--text-color1);
@@ -231,6 +249,7 @@ p{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+    position: inherit;
   }
 
 .btn2:hover{

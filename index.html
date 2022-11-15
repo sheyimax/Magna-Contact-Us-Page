@@ -18,28 +18,31 @@
                   <li><a class="nav-link" href="#resource">Resources</a></li>
                   <li><a class="nav-link" href="#team">Teams</a></li>
                   <li><a class="nav-link" href="#contact">Contact</a></li>
-                  </ul>
-                  <div id="header-button">
-                    <a href="#" class="btn btnl">Log in</a>
-                    <a href="#" class="btn">Try it free</a>
-                  </div>
+                </ul>  
+                <li class="cta"><a href="#" class="btn btnl">Log in</a></li>
+                <li><a href="#" class="btn">Try it free</a></li>  
               </nav>
             </div>
             <section class="all-form">
                 <div class="intro">
                     <h1>Get in Touch</h1>
-                    <p>We'd love to hear from you - why not say hello!</p>
+                    <p class="head-p">We'd love to hear from you - why not say hello!</p>
                 </div>
                 <div class="contact-form">
                     <form id="form1">
                         <label for="Name">Full Name<input type="text" name="Name" placeholder="Esther Smith" required></label>
                         <label>Email<input type="email" name="email" placeholder="example@hotmail.com" required></label>
-                        <label>Reason for contact<input type="select" name="email" placeholder="Select your reason" required></label>
+                        <label>Reason for contact<select placeholder="Select your reason" required>
+                            <option value="Enquiry"></option>
+                            <option value="Support">Support for Updates</option>
+                            <option value="Training">Book for training</option>
+                            <option value="Job">Enquiries for Job Post</option>
+                        </select></label>
                         <div id="mid-form">
                             <label>Company Name<input type="text" name="company-name" placeholder="Amod farm inc." required></label>
                             <label>Phone Number<input class="phone" type="text" name="phone-number" placeholder="081-396-956-80" required></label>
                         </div>
-                        <label>Tell us what's happening<textarea name="Message" placeholder="Write here"></textarea></label>
+                        <label>Tell us what's happening<textarea type="text" name="Message" placeholder="Write here" required></textarea></label>
                         <button type="submit" class="btn1 btn2">Submit</button>
                     </form>
                 </div>
@@ -126,7 +129,7 @@
             </div>
             <div class="footer-list2">
                 <div id="address">
-                    <img src="Images/Magna.svg" alt="Magna logo">
+                    <img src="logo/Magna.svg" alt="Magna logo">
                     <p><span>@ 2022 MagnaLabs.</span> All Rights Reserved.</p> 
                 </div>
                 <div id="address-logo">
